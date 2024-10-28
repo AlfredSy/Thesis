@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 15
+names: ['Big Dark Blue Fish', 'Blue Fish', 'Blue Fish Two', 'Blue Nose Fish', 'Dark Blue Dory', 'Dark Fish', 'Half Blue - Half Yellow', 'Light Fish', 'Light Fish - Dark Fin', 'Light Fish w Back Stripes', 'Striped Fish', 'UI', 'Yellow Fish', 'Yellow Tail', 'Yellow-Blue Fish']
+
+roboflow:
+  workspace: alfred-sy
+  project: fish-6ncsb
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/alfred-sy/fish-6ncsb/dataset/3
